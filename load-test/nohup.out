@@ -1,0 +1,60 @@
+Creating summariser <summary>
+Created the tree successfully using QuizLogTestPlan.jmx
+Starting standalone test @ Fri Jul 23 22:06:33 SGT 2021 (1627049193583)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:00 =    3.1/s Avg:    88 Min:    88 Max:    88 Err:     1 (100.00%) Active: 2 Started: 2 Finished: 0
+Uncaught Exception java.lang.OutOfMemoryError: unable to create new native thread in thread Thread[StandardJMeterEngine,5,main]. See log file for details.
+summary +    131 in 00:00:26 =    5.1/s Avg:    12 Min:     3 Max:   431 Err:   131 (100.00%) Active: 1 Started: 132 Finished: 131
+summary =    132 in 00:00:26 =    5.0/s Avg:    12 Min:     3 Max:   431 Err:   132 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     8 Min:     2 Max:   182 Err:   150 (100.00%) Active: 1 Started: 282 Finished: 281
+summary =    282 in 00:00:56 =    5.0/s Avg:    10 Min:     2 Max:   431 Err:   282 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     6 Min:     2 Max:    29 Err:   150 (100.00%) Active: 1 Started: 432 Finished: 431
+summary =    432 in 00:01:26 =    5.0/s Avg:     9 Min:     2 Max:   431 Err:   432 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     5 Min:     2 Max:    30 Err:   150 (100.00%) Active: 1 Started: 582 Finished: 581
+summary =    582 in 00:01:56 =    5.0/s Avg:     8 Min:     2 Max:   431 Err:   582 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     6 Min:     2 Max:   441 Err:   150 (100.00%) Active: 1 Started: 732 Finished: 731
+summary =    732 in 00:02:26 =    5.0/s Avg:     7 Min:     2 Max:   441 Err:   732 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     4 Min:     2 Max:    54 Err:   150 (100.00%) Active: 1 Started: 882 Finished: 881
+summary =    882 in 00:02:56 =    5.0/s Avg:     7 Min:     2 Max:   441 Err:   882 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     3 Min:     1 Max:    19 Err:   150 (100.00%) Active: 1 Started: 1032 Finished: 1031
+summary =   1032 in 00:03:26 =    5.0/s Avg:     6 Min:     1 Max:   441 Err:  1032 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     4 Min:     1 Max:   200 Err:   150 (100.00%) Active: 1 Started: 1182 Finished: 1181
+summary =   1182 in 00:03:56 =    5.0/s Avg:     6 Min:     1 Max:   441 Err:  1182 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     3 Min:     1 Max:    14 Err:   150 (100.00%) Active: 1 Started: 1332 Finished: 1331
+summary =   1332 in 00:04:26 =    5.0/s Avg:     6 Min:     1 Max:   441 Err:  1332 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     3 Min:     1 Max:    11 Err:   150 (100.00%) Active: 1 Started: 1482 Finished: 1481
+summary =   1482 in 00:04:56 =    5.0/s Avg:     5 Min:     1 Max:   441 Err:  1482 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     3 Min:     1 Max:     9 Err:   150 (100.00%) Active: 1 Started: 1632 Finished: 1631
+summary =   1632 in 00:05:26 =    5.0/s Avg:     5 Min:     1 Max:   441 Err:  1632 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     2 Min:     1 Max:    14 Err:   150 (100.00%) Active: 1 Started: 1782 Finished: 1781
+summary =   1782 in 00:05:56 =    5.0/s Avg:     5 Min:     1 Max:   441 Err:  1782 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     3 Min:     1 Max:    49 Err:   150 (100.00%) Active: 1 Started: 1932 Finished: 1931
+summary =   1932 in 00:06:26 =    5.0/s Avg:     5 Min:     1 Max:   441 Err:  1932 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     2 Min:     1 Max:    11 Err:   150 (100.00%) Active: 1 Started: 2082 Finished: 2081
+summary =   2082 in 00:06:56 =    5.0/s Avg:     4 Min:     1 Max:   441 Err:  2082 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     2 Min:     1 Max:     6 Err:   150 (100.00%) Active: 1 Started: 2232 Finished: 2231
+summary =   2232 in 00:07:26 =    5.0/s Avg:     4 Min:     1 Max:   441 Err:  2232 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     2 Min:     2 Max:    10 Err:   150 (100.00%) Active: 1 Started: 2382 Finished: 2381
+summary =   2382 in 00:07:56 =    5.0/s Avg:     4 Min:     1 Max:   441 Err:  2382 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     2 Min:     1 Max:     8 Err:   150 (100.00%) Active: 1 Started: 2532 Finished: 2531
+summary =   2532 in 00:08:26 =    5.0/s Avg:     4 Min:     1 Max:   441 Err:  2532 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     2 Min:     1 Max:     6 Err:   150 (100.00%) Active: 1 Started: 2682 Finished: 2681
+summary =   2682 in 00:08:56 =    5.0/s Avg:     4 Min:     1 Max:   441 Err:  2682 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     2 Min:     1 Max:    44 Err:   150 (100.00%) Active: 1 Started: 2832 Finished: 2831
+summary =   2832 in 00:09:26 =    5.0/s Avg:     4 Min:     1 Max:   441 Err:  2832 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     2 Min:     2 Max:     6 Err:   150 (100.00%) Active: 1 Started: 2982 Finished: 2981
+summary =   2982 in 00:09:56 =    5.0/s Avg:     4 Min:     1 Max:   441 Err:  2982 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     2 Min:     2 Max:     4 Err:   150 (100.00%) Active: 1 Started: 3132 Finished: 3131
+summary =   3132 in 00:10:26 =    5.0/s Avg:     4 Min:     1 Max:   441 Err:  3132 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     2 Min:     1 Max:     6 Err:   150 (100.00%) Active: 1 Started: 3282 Finished: 3281
+summary =   3282 in 00:10:56 =    5.0/s Avg:     4 Min:     1 Max:   441 Err:  3282 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     2 Min:     2 Max:     4 Err:   150 (100.00%) Active: 1 Started: 3432 Finished: 3431
+summary =   3432 in 00:11:26 =    5.0/s Avg:     4 Min:     1 Max:   441 Err:  3432 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     2 Min:     1 Max:     5 Err:   150 (100.00%) Active: 1 Started: 3582 Finished: 3581
+summary =   3582 in 00:11:56 =    5.0/s Avg:     3 Min:     1 Max:   441 Err:  3582 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     2 Min:     2 Max:     3 Err:   150 (100.00%) Active: 1 Started: 3732 Finished: 3731
+summary =   3732 in 00:12:26 =    5.0/s Avg:     3 Min:     1 Max:   441 Err:  3732 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     2 Min:     1 Max:     5 Err:   150 (100.00%) Active: 1 Started: 3882 Finished: 3881
+summary =   3882 in 00:12:56 =    5.0/s Avg:     3 Min:     1 Max:   441 Err:  3882 (100.00%)
+summary +    150 in 00:00:30 =    5.0/s Avg:     2 Min:     1 Max:     5 Err:   150 (100.00%) Active: 1 Started: 4032 Finished: 4031
+summary =   4032 in 00:13:26 =    5.0/s Avg:     3 Min:     1 Max:   441 Err:  4032 (100.00%)

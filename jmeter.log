@@ -1,0 +1,31 @@
+2021-07-23 22:06:17,865 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-07-23 22:06:17,898 INFO o.a.j.JMeter: Loading user properties from: /Users/Smit/Downloads/External-Libraries/apache-jmeter-5.2.1/bin/user.properties
+2021-07-23 22:06:17,899 INFO o.a.j.JMeter: Loading system properties from: /Users/Smit/Downloads/External-Libraries/apache-jmeter-5.2.1/bin/system.properties
+2021-07-23 22:06:17,901 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2021-07-23 22:06:17,901 INFO o.a.j.JMeter: Version 5.2.1
+2021-07-23 22:06:17,901 INFO o.a.j.JMeter: java.version=1.8.0_65
+2021-07-23 22:06:17,901 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2021-07-23 22:06:17,901 INFO o.a.j.JMeter: os.name=Mac OS X
+2021-07-23 22:06:17,901 INFO o.a.j.JMeter: os.arch=x86_64
+2021-07-23 22:06:17,901 INFO o.a.j.JMeter: os.version=10.16
+2021-07-23 22:06:17,901 INFO o.a.j.JMeter: file.encoding=UTF-8
+2021-07-23 22:06:17,902 INFO o.a.j.JMeter: java.awt.headless=true
+2021-07-23 22:06:17,902 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-07-23 22:06:17,902 INFO o.a.j.JMeter: Available Processors =8
+2021-07-23 22:06:17,908 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-07-23 22:06:17,909 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-07-23 22:06:17,909 INFO o.a.j.JMeter: JMeterHome=/Users/Smit/Downloads/External-Libraries/apache-jmeter-5.2.1
+2021-07-23 22:06:17,909 INFO o.a.j.JMeter: user.dir  =/Users/Smit/Documents/Dev/quiz-roulette/quiz-log-event-service
+2021-07-23 22:06:17,909 INFO o.a.j.JMeter: PWD       =/Users/Smit/Documents/Dev/quiz-roulette/quiz-log-event-service
+2021-07-23 22:06:17,911 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: Smits-MacBook-Pro.local FullName: localhost
+2021-07-23 22:06:17,913 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/Users/Smit/Documents/Dev/quiz-roulette/quiz-log-event-service/jmeteroutput'
+2021-07-23 22:06:17,914 ERROR o.a.j.JMeter: An error occurred: 
+org.apache.jmeter.report.config.ConfigurationException: The file /Users/Smit/Documents/Dev/quiz-roulette/quiz-log-event-service/QuizLogTestPlan.jmx doesn't exist or can't be opened
+	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:1001) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.JMeter.startNonGui(JMeter.java:992) ~[ApacheJMeter_core.jar:5.2.1]
+	at org.apache.jmeter.JMeter.start(JMeter.java:564) [ApacheJMeter_core.jar:5.2.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_65]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:253) [ApacheJMeter.jar:5.2.1]
