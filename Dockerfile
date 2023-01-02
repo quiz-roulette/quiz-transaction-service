@@ -10,6 +10,6 @@ RUN mvn -f /home/app/pom.xml clean package
 # Package stage
 #
 FROM openjdk:16.0.1-oraclelinux7
-COPY --from=build /home/app/target/quiz-log-event-service-0.0.1-SNAPSHOT.jar /usr/local/lib/quiz-log-event-service.jar
-EXPOSE 8082
+COPY --from=build /home/app/target/*.jar /usr/local/lib/quiz-log-event-service.jar
+EXPOSE 8080
 ENTRYPOINT ["java","-jar","/usr/local/lib/quiz-log-event-service.jar"]

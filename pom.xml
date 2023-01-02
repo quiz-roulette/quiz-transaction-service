@@ -11,7 +11,7 @@
   </parent>
   <groupId>com.quiz-roulette</groupId>
   <artifactId>quiz-log-event-service</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>quiz-log-event-service</name>
   <description>Quiz Log Event Messaging Service</description>
   <properties>

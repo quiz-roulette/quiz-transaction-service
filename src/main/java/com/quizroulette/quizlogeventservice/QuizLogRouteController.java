@@ -28,7 +28,7 @@ public class QuizLogRouteController {
   RouterFunction<ServerResponse> addQuizLog(QuizLogEventJPARepository quizLogEventJPARepository) {
     return route(POST("/quizlogs"),
         req -> req.body(toMono(QuizLogEvent.class))
-            .doOnNext(quizlogEvent -> log.trace("{}", quizlogEvent))
+            .doOnNext(quizlogEvent -> log.info("{}", quizlogEvent))
             .doOnNext(quizLogEvent -> quizLogEventJPARepository.save(quizLogEvent).subscribe())
             .then(ok().build()));
   }
