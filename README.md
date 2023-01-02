@@ -1,8 +1,6 @@
-
-
 # Quiz Transaction Service
 
-A service dedicated to log all user transactions including players and admins
+A service dedicated to log all user transactions for both players and admins.
 
 
 ### Helpful Commands
@@ -25,5 +23,3 @@ docker build -t quiz-roulette/quiz-log-event-service .
 ### References:
 
 - https://msayag.github.io/WebFlux/
-
-```
